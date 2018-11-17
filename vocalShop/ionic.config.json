@@ -1,0 +1,7 @@
+{
+  "name": "vocalShop",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
