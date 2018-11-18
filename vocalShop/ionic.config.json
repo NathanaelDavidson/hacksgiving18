@@ -1,7 +1,5 @@
 {
-  "name": "vocalShop",
-  "integrations": {
-    "cordova": {}
-  },
+  "name": "speechy",
+  "integrations": {},
   "type": "ionic-angular"
 }

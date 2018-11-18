@@ -1,14 +1,25 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Speechy
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <p>Is listening ? : {{ isListening }}</p>
+  <button ion-button (click)="getPermission()">Get Permission</button>
+  <button ion-button (click)="listen()">
+    <div>
+      <ion-icon name="mic">
+        <label>Speak to me</label>
+      </ion-icon>
+    </div>
+  </button>
+
+  <ion-card>
+    <ion-card-content *ngFor="let match of matches">
+      <p>{{ match }}</p>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
