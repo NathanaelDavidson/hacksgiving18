@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { SpeechRecognition } from '@ionic-native/speech-recognition';
-import {  NgZone } from '@angular/core';
+import { NgZone } from '@angular/core';
+
+
 
 @Component({
   selector: 'page-home',
@@ -14,6 +16,8 @@ export class HomePage {
 
   constructor(public navCtrl: NavController, public speech: SpeechRecognition, private zone: NgZone) {
   }
+
+
 
   async hasPermission():Promise<boolean> {
     try {
