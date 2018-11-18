@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <h3>What would you like to see today?</h3>
+    <ion-searchbar> </ion-searchbar>
+  <p text-center ion-text>
+    Recommended for you!
+  </p>
+
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <ion-img width="100" height="100" src="../hello-ionic/iphone7.png"></ion-img>
+                <p>Iphone 7</p>
+            </ion-col>
+            <ion-col>
+                <ion-img width="100" height="100" src="./iphonex.png"></ion-img>
+                <p>Iphone X</p>
+            </ion-col>
+            <ion-col>
+                <ion-img width="100" height="100" src="./iphone7.png"></ion-img>
+                <p>Android Phone</p>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-img width="100" height="100" src="../hello-ionic/iphone7.png"></ion-img>
+                <p>Iphone 7</p>
+            </ion-col>
+            <ion-col>
+                <ion-img width="100" height="100" src="./iphonex.png"></ion-img>
+                <p>Iphone X</p>
+            </ion-col>
+            <ion-col>
+                <ion-img width="100" height="100" src="./iphone7.png"></ion-img>
+                <p>Android Phone</p>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <button ion-button full (click)="goToChat()">Chat With Us!</button> 
+
+</ion-content>
+
+
+

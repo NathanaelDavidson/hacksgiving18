@@ -1,0 +1,22 @@
+page-chat {
+    
+    .message{
+        display: inline-block;
+        padding: 2px 2px;
+        background-color: blue;
+        margin-top: 40px;
+        color: white;
+        border-radius: 20%;
+    }
+    
+    .username {
+        
+    }
+    
+    .username p,
+    .message p {
+        padding: 5px !important;
+    }
+    
+    
+}
