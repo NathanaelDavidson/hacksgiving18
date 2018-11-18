@@ -1,7 +1,7 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Speechy
+      Our Dope App
     </ion-title>
   </ion-navbar>
 </ion-header>
@@ -22,4 +22,13 @@
       <p>{{ match }}</p>
     </ion-card-content>
   </ion-card>
+  <input ion-text type="text" [(ngModel)]="question">
+  <button ion-button (click)="ask(question)">
+    Ask
+  </button>
+  <div>
+    {{answer}}
+  </div>
+
+<ion-content padding>
 </ion-content>
